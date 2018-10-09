@@ -121,7 +121,7 @@
         </div>
     </nav>
 
-    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);">
+    <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/aaa.png');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
