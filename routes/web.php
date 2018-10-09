@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('master');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/digital-solutions', function () {
+    return view('digital_solutions');
+});
+

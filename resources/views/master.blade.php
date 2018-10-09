@@ -50,7 +50,7 @@
 	<script src="{!! asset('assets/master/js/modernizr-2.6.2.min.js') !!}"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+	<script src="{!! asset('assets/master/js/respond.min.js') !!}"></script>
 	<![endif]-->
 
     <style>
