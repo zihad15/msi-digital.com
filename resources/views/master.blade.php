@@ -85,35 +85,17 @@
 			<div class="row">
 				<div class="left-menu text-right menu-1">
 					<ul>
-						<li><a href="work.html">Work</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
+						<li><a href="{{ url('about-us') }}">About Us</a></li>
+						<li><a href="{{ url('business-competence') }}">Business Competence</a></li>
 					</ul>
 				</div>
 				<div class="logo text-center">
-					<div id="fh5co-logo"><a href="index.html">MSI</a></div>
+					<div id="fh5co-logo"><a href="{{ url('/') }}">MSI</a></div>
 				</div>
 				<div class="right-menu text-left menu-1">
 					<ul>
-						<li><a href="blog.html">Blog</a></li>
-						<li class="has-dropdown">
-							<a href="#">Tools</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="{{ url('digital-solutions') }}">Our Digital Solutions</a></li>
+						<li><a href="contact.html">Clients & Partners</a></li>
 						<!-- <li class="btn-cta"><a href="#"><span>Login</span></a></li> -->
 					</ul>
 				</div>
@@ -122,143 +104,20 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>We Help to Build Your Site</h1>
-							<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-							<div class="row">
-								<form class="form-inline" id="fh5co-header-subscribe">
-									<div class="col-md-6 col-md-offset-3">
-										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Enter your email">
-											<button type="submit" class="btn btn-default">Join Now</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<div id="fh5co-services" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Our Service</h2>
-                    <p>We focus on Android Development, iOS Development, Iphone Development and all mobile Development </p>
-                </div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="{!! asset('assets/master/images/gmbr/k1.png') !!}" class="gmbr-logo">
-						<p class="text-center">Software Design and Development</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="{!! asset('assets/master/images/gmbr/k2.png') !!}" class="gmbr-logo">
-						<p class="text-center">Website Design and Development</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="{!! asset('assets/master/images/gmbr/k3.png') !!}" class="gmbr-logo">
-						<p class="text-center">Mobile(IOS, Android and Blackberry) App Development</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-project">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Our Project</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="{!! asset('assets/master/images/gmbr/ar1.jpg') !!}" class="gmbr-prjk">
-
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn" >
-					<a href="#"><img src="{!! asset('assets/master/images/gmbr/n1.jpg') !!}" class="gmbr-prjk">
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="{!! asset('assets/master/images/gmbr/w1.jpg') !!}" class="gmbr-prjk">
-					</a>
-				</div>
-                <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="{!! asset('assets/master/images/gmbr/in1.jpg') !!}" class="gmbr-prjk">
-
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn" >
-                    <a href="#"><img src="{!! asset('assets/master/images/gmbr/mo1.jpg') !!}" class="gmbr-prjk">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                    <a href="#"><img src="{!! asset('assets/master/images/gmbr/p2.jpg') !!}" class="gmbr-prjk">
-                    </a>
-                </div>
-
-                <div class="row fh5co-blog animate-box">
-                    <div class="col-md-8 col-md-offset-2">
-                        <form class="form-inline">
-                            <div class="col-md-6 col-md-offset-3 col-sm-6">
-                                <button type="submit" class="btn btn-default btn-block btn-view-more">View More</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-			</div>
-		</div>
-	</div>
-
-
-	<div id="fh5co-blog" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Our Valueable Clients & Partners</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12 col-md-12">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="{!! asset('assets/master/images/gmbr/partner.png') !!}" alt=""></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	@yield('content')
 
 	<div id="fh5co-started">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<p>MSI committed to provide access to closed loop digital ecosystem with proven services
-                        and solutions align with client’s objective to achieve business value
-                    </p>
+					<p>For partnership and further inquiries, let's chat!</p>
 				</div>
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<form class="form-inline">
 						<div class="col-md-6 col-md-offset-3 col-sm-6">
-							<button type="submit" class="btn btn-default btn-block">Get In Touch</button>
+		            		<button type="submit" class="btn btn-default btn-block"><a href="https://api.whatsapp.com/send?phone=628176677986&text=Hello,%20Im%20interested%20to%20discuss%20further%20about%20potential%20partnership" style="color: white;">Get In Touch WhatsApp</a></button>
 						</div>
 					</form>
 				</div>
@@ -269,46 +128,31 @@
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 			<div class="row row-pb-md">
-				<div class="col-md-2 col-sm-4 col-xs-6">
+
+				<div class="col-md-4 col-sm-8 col-xs-6">
 					<ul class="fh5co-footer-links">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Help</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Meetups</a></li>
+						<li><a href="{{ url('about-us') }}">About Us</a></li>
+						<li><a href="{{ url('business-competence') }}">Business Competence</a></li>
+						<li><a href="{{ url('/') }}">MSI / Home</a></li>
+						<li><a href="{{ url('digital-solutions') }}">Our Digital Solutions</a></li>
+						<li><a href="{{ url('clients-partners') }}">Clients & Partners</a></li>
+						
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Shop</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Handbook</a></li>
-						<li><a href="#">Held Desk</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-2 col-sm-4 col-xs-6">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Find Designers</a></li>
-						<li><a href="#">Find Developers</a></li>
-						<li><a href="#">Teams</a></li>
-						<li><a href="#">Advertise</a></li>
-						<li><a href="#">API</a></li>
-					</ul>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-					<h3>A Little About Orange</h3>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#">Learn More</a></p>
+					<h3>A Little About MSI</h3>
+					<p style="text-align: justify;">MSI was established in early 2014 by experienced software engineers who have been working in software development field in various software development areas such as Mobile Application (Android, iOS, BB, Windows Mobile), Website Development, and management system, and many more.</p>
+					<p><a href="{{ url('about-us') }}">Learn More</a></p>
 				</div>
 			</div>
 
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">&copy; PT. MSI Developers</small> 
 						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
 					</p>
 					<p>

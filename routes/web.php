@@ -12,14 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('pages.home');
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/about-us', function () {
+    return view('pages.about');
 });
 
 Route::get('/digital-solutions', function () {
-    return view('digital_solutions');
+    return view('pages.digital_solutions');
 });
 
+Route::get('/business-competence', function () {
+    return view('pages.business');
+});
+
+Route::get('/clients-partners', function () {
+    return view('pages.client_partners');
+});
