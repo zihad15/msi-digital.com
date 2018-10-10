@@ -64,6 +64,11 @@
             height: 150px;
         }
 
+        .gmbr-prjk2{
+        	width: 100%;
+        	height: 250px;
+        }
+
         .btn-view-more{
             background-color: #F36363;
             color: #ffffff;
@@ -95,7 +100,7 @@
 				<div class="right-menu text-left menu-1">
 					<ul>
 						<li><a href="{{ url('digital-solutions') }}">Our Digital Solutions</a></li>
-						<li><a href="contact.html">Clients & Partners</a></li>
+						<li><a href="{{ url('clients-partners') }}">Clients & Partners</a></li>
 						<!-- <li class="btn-cta"><a href="#"><span>Login</span></a></li> -->
 					</ul>
 				</div>

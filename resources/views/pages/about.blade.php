@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/aaa.png');">
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/g2.png');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -8,7 +8,7 @@
                 <div class="display-t">
                     <div class="display-tc animate-box" data-animate-effect="fadeIn">
                         <h1>About Us</h1>
-                        <h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
+                        <h2>MSI Your Digital Solution Enabler!</h2>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-md-pull-6">
-                    <img class="img-responsive" src="images/img_bg_1.jpg" alt="about">
+                    <img class="img-responsive" src="assets/master/images/gmbr/businessman-trasparente.png" alt="about">
                 </div>
                 <div class="col-md-12 col-sm-12" data-animate-effect="fadeIn">
                     <div class="">

@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/aaa.png');">
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/g1.png');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -8,7 +8,7 @@
                 <div class="display-t">
                     <div class="display-tc animate-box" data-animate-effect="fadeIn">
                         <h1>Our Digital Solutions</h1>
-                        <h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
+                        <h2>MSI Your Digital Solution Enabler!</h2>
                     </div>
                 </div>
             </div>
@@ -140,6 +140,146 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 fh5co-project animate-box" data-animate-effect="fadeIn">
                     <img src="{!! asset('assets/master/images/gmbr/op1.jpg') !!}" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="fh5co-project">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-12 fh5co-heading">
+                <h3>Digital Signage & Printing</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <img src="{!! asset('assets/master/images/gmbr/oh.png') !!}" class="gmbr-prjk">
+            </div>
+            <div class="col-md-6 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <h4>One of the fastest growing OOH – digital signage placement</h4>
+                <p>We have been aggressively building and locating the best LED spot in the market.</p>
+            </div>
+            <div class="col-md-3 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <img src="{!! asset('assets/master/images/gmbr/ba.png') !!}" class="gmbr-prjk">
+            </div>
+
+            <div class="col-md-4 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <img src="{!! asset('assets/master/images/gmbr/no.png') !!}" class="gmbr-prjk">
+            </div>
+            <div class="col-md-8 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <h4>Brand awareness and strong name recognition</h4>
+                <p>Big, bold, colorfull, creative, and eye-cathing advertising have more impact.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+            </div>  
+            <div class="col-md-6 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <p>The combination of digital printing with proven technology allows obtaining an optimised and high quality digital printing which is fully tailored to your needs.</p>
+            </div>
+            <div class="col-md-3 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <img src="{!! asset('assets/master/images/gmbr/dp1.png') !!}" class="gmbr-prjk">
+            </div>    
+        </div>
+    </div>
+</div>
+
+<div id="fh5co-services" class="fh5co-bg-section">
+    <div class="container">
+        <div class="row">
+            <div class=" fh5co-heading">
+                <h3>Corporate Solution</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <img src="{!! asset('assets/master/images/gmbr/bo.png') !!}" class="img-responsive" >
+                </div>
+                <div class="col-md-7 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <h4>Bolt Corporate Solutions</h4>
+                    <p>We provide custom built network solution & integrated M2M business solution for corporate clients.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-4 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <h4>Brand awareness and strong name recognition</h4>
+                    <p>Big, bold, colorfull, creative, and eye-cathing advertising have more impact.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <img src="{!! asset('assets/master/images/gmbr/bolt.png') !!}" width="250" height="200">
+                </div>
+                <div class="col-md-3 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <h4>BOLT! Private Network (VPN)</h4>
+                    <ul>
+                        <li>Unlimited Quota</li>
+                        <li>Speed up to <span style="color: red">10 Mbps (UL/DL)</span> </li>
+                        <li>24 months subscription</li>
+                        <li>Local IP Static</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <img src="{!! asset('assets/master/images/gmbr/cc.png') !!}" width="300" height="200">
+                </div>
+                <div class="col-md-3 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <h4>BOLT! CCTV Solution</h4>
+                    <ul>
+                        <li>Fair Usage Policy (FUP) <span style="color: red">20GB/month</span></li>
+                        <li>Speed up to <span style="color: red">10 Mbps (UL/DL)</span>  </li>
+                        <li>Local IP Static for CCTV </li>
+                        <li>24 months subscription </li>
+                        <li>10% tax included</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="fh5co-project">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-12 fh5co-heading">
+                <h3>S2S e-Pulse integration</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 fh5co-project animate-box" data-animate-effect="fadeIn">
+                <img src="{!! asset('assets/master/images/gmbr/msi1.jpg') !!}" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fh5co-services" class="fh5co-bg-section">
+    <div class="container">
+        <div class="row">
+            <div class=" fh5co-heading">
+                <h3>Network & Connectivity Solution</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <img src="{!! asset('assets/master/images/gmbr/ci.png') !!}" class="img-responsive">
+                </div>
+                <div class="col-md-8 col-sm-12 fh5co-project animate-box" data-animate-effect="fadeIn">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 fh5co-project animate-box" data-animate-effect="fadeIn">
+                            <h3>System Integrator - Corporate Solutions</h3>
+                            <img src="{!! asset('assets/master/images/gmbr/ibm.png') !!}" class="img-responsive">
+                        </div>
+                        <div class="col-md-12 col-sm-12 fh5co-project animate-box" data-animate-effect="fadeIn">
+                            <h5>Our approach takes into consideration:</h5>
+                            <ul>
+                                <li>Migrating from proprietary networks and cost centers to converge and comply with IT systems and security. </li>
+                                <li>Evaluating and utilizing existing technology and platforms, while design ing a future roadmap towards enterprise standards. </li>
+                                <li>Maintaining agnostic manufacturer evaluation, negotiation and management. </li>
+                                <li>Ensuring the solutions become ROI through design and reporting.</li>
+                                <li>Designing environmentally conscious technology solutions and systems</li>
+                                <li>Providing custom Managed Services with the most efficient mix of on-site and remote management support</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

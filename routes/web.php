@@ -30,3 +30,4 @@ Route::get('/business-competence', function () {
 Route::get('/clients-partners', function () {
     return view('pages.client_partners');
 });
+
