@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/g2.png');">
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/bg/2.png');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -16,11 +16,37 @@
     </div>
 </header>
 
+<div id="fh5co-services" class="fh5co-bg-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style="">
+                <h2>CEO MESSAGE</h2>
+            </div>
+            <div class="col-md-4 col-sm-12">
+
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <div class="fh5co-staff">
+                        <img src="{!! asset('assets/master/images/gmbr/ceo.jpg') !!}">
+                        <h3>Chris Wiranata</h3>
+                        <strong class="role">CEO</strong>
+                        <p>MSI committed to provide access to closed loop digital ecosystem with proven services and solutions align with client’s objective to achieve business value.</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+             
+        </div>
+    </div>
+</div>
+
 <div id="fh5co-about">
     <div class="container">
         <div class="about-content">
             <div class="row animate-box">
-                <div class="col-md-6 col-md-push-6">
+                <div class="col-md-12 col-sm-6">
                     <div class="desc">
                         <h3>About MSI</h3>
                         <p>MSI was established in early 2014 by experienced software engineers who have been working in software development field in various software development areas such as Mobile Application (Android, iOS, BB, Windows Mobile), Website Development, and management system, and many more. </p>
@@ -34,9 +60,6 @@
                             <li><p>MSI is the Telco-friendly and long term partner with beneficial TSP model. </p></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-md-6 col-md-pull-6">
-                    <img class="img-responsive" src="assets/master/images/gmbr/businessman-trasparente.png" alt="about">
                 </div>
                 <div class="col-md-12 col-sm-12" data-animate-effect="fadeIn">
                     <div class="">
@@ -98,38 +121,6 @@
                         <a href="#"><img class="img-responsive" src="{!! asset('assets/master/images/gmbr/company.png') !!}" alt=""></a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="fh5co-services" class="fh5co-bg-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style="">
-                <h2>CEO MESSAGE</h2>
-            </div>
-            <div class="col-md-4 col-sm-12">
-
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="feature-center animate-box" data-animate-effect="fadeIn">
-                    <div class="fh5co-staff">
-                        <img src="{!! asset('assets/master/images/gmbr/ceo.jpg') !!}">
-                        <h3>Chris Wiranata</h3>
-                        <strong class="role">CEO</strong>
-                        <p>MSI committed to provide access to closed loop digital ecosystem with proven services and solutions align with client’s objective to achieve business value</p>
-                        <ul class="fh5co-social-icons">
-                            <li><a href="#"><i class="icon-facebook"></i></a></li>
-                            <li><a href="#"><i class="icon-twitter"></i></a></li>
-                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                            <li><a href="#"><i class="icon-github"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-
             </div>
         </div>
     </div>

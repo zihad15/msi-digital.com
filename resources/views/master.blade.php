@@ -78,6 +78,17 @@
             background-color: #e66060;
             color: #ffffff;
         }
+
+        .garis-menu{
+        	display: none;
+        }
+
+
+        @media only screen and (max-width: 767px) {
+		 #fh5co-offcanvas .garis-menu{
+		 	display: block;
+		  }
+		}
     </style>
 </head>
 <body>
@@ -89,9 +100,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="left-menu text-right menu-1">
-					<ul>
-						<li><a href="{{ url('about-us') }}">About Us</a></li>
-						<li><a href="{{ url('business-competence') }}">Business Competence</a></li>
+					<ul class="side-menu">
+						<li ><a href="{{ url('about-us') }}">About Us</a></li>
+						<hr class="garis-menu">
+						<li ><a href="{{ url('business-competence') }}">Business Competence</a></li>
+						<hr class="garis-menu">
 					</ul>
 				</div>
 				<div class="logo text-center">
@@ -100,7 +113,9 @@
 				<div class="right-menu text-left menu-1">
 					<ul>
 						<li><a href="{{ url('digital-solutions') }}">Our Digital Solutions</a></li>
+						<hr class="garis-menu">
 						<li><a href="{{ url('clients-partners') }}">Clients & Partners</a></li>
+						<hr class="garis-menu">
 						<!-- <li class="btn-cta"><a href="#"><span>Login</span></a></li> -->
 					</ul>
 				</div>

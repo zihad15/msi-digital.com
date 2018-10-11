@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/gmbr/g3.png');">
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url('assets/master/images/bg/3.jpg');">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row">

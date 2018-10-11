@@ -944,7 +944,7 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 45px 40px 40px 40px;
+  padding: 70px 40px 40px 40px;
   overflow-y: auto;
   display: none;
   -moz-transform: translateX(270px);
@@ -969,7 +969,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
 }
 #fh5co-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -980,7 +980,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-offcanvas ul li {
   padding: 0;
-  margin: 0;
+  margin-bottom: 20px;
   list-style: none;
 }
 #fh5co-offcanvas ul li > ul {
