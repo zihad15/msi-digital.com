@@ -163,7 +163,7 @@
 				<div class="col-md-2 col-sm-4 col-xs-6">
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-					<h3>A Little About MSI</h3>
+					<h3>PT.Mitra Sinergi Indonesia at Glance</h3>
 					<p style="text-align: justify;">MSI was established in early 2014 by experienced software engineers who have been working in software development field in various software development areas such as Mobile Application (Android, iOS, BB, Windows Mobile), Website Development, and management system, and many more.</p>
 					<p><a href="{{ url('about-us') }}">Learn More</a></p>
 				</div>
@@ -173,7 +173,6 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; PT. MSI Developers</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">

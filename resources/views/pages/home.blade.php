@@ -21,7 +21,6 @@
 		<div class="row animate-box">
 			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 				<h2>Overview</h2>
-				<p>MSI commited to provide access to closed loop digital ecosystem with proven service and solutions align with client's objective to achieve business value</p>
 			</div>
 		</div>
 		<br>
@@ -120,16 +119,16 @@
 				</a>
 			</div>
             <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                <a href="#"><img src="{!! asset('assets/master/images/gmbr/in1.jpg') !!}" class="gmbr-prjk">
+                <a href="#"><img src="{!! asset('assets/master/images/gmbr/f1.jpg') !!}" class="gmbr-prjk">
 
                 </a>
             </div>
             <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn" >
-                <a href="#"><img src="{!! asset('assets/master/images/gmbr/mo1.jpg') !!}" class="gmbr-prjk">
+                <a href="#"><img src="{!! asset('assets/master/images/gmbr/t1.jpg') !!}" class="gmbr-prjk">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                <a href="#"><img src="{!! asset('assets/master/images/gmbr/p2.jpg') !!}" class="gmbr-prjk">
+                <a href="#"><img src="{!! asset('assets/master/images/gmbr/g1.jpg') !!}" class="gmbr-prjk">
                 </a>
             </div>
 
@@ -155,9 +154,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 col-md-12">
+            <div class="col-lg-12 col-md-12">
 				<div class="fh5co-blog animate-box">
-					<a href="#"><img class="img-responsive" src="{!! asset('assets/master/images/gmbr/partner.png') !!}" alt=""></a>
+                    <a href="#"><img class="img-responsive" src="{!! asset('assets/master/images/gmbr/telco.png') !!}" alt=""></a>
+                    <a href="#"><img class="img-responsive" src="{!! asset('assets/master/images/gmbr/partner.png') !!}" alt=""></a>
 				</div>
 			</div>
 		</div>

@@ -27,6 +27,7 @@
         <div class="row">
 			<div class="col-md-12 col-sm-12">
 				<div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <img class="img-responsive" src="{!! asset('assets/master/images/gmbr/telco.png') !!}" alt="">
 					<img src="{!! asset('assets/master/images/gmbr/partner.png') !!}" class="img-responsive">
 					<p class="text-center"></p>
 				</div>
